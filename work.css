@@ -1,0 +1,43 @@
+#works{
+    margin: 0 auto;;
+    min-height: calc(100vh - 5rem);
+    width: 100vw;
+    max-width: 60rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 1rem;
+}
+.workstitle{
+    font-size: 3rem;
+    margin: 1rem 0 ;
+}
+.worksImg{
+    object-fit: cover;
+    height: 20rem;
+    margin: 0.5rem;
+}
+.worksImgs{
+display: flex;
+align-items: center;
+justify-content: center;
+width: 100vw;
+max-width: 65rem;
+flex-wrap: wrap;
+}
+.worksDesc{
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+.workBtn{
+    padding: 0.5rem 1.5rem;
+    border: none;
+    border-radius: 2rem;
+    background: white;
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 3rem 0;
+}
